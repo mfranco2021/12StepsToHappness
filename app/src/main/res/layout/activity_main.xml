@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/prayer"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="1. We admitted we were powerless over alcohol— that our lives had become unmanageable."
+            android:textSize="28sp"
+            android:onClick="openFirstStep"/>
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="2. We came to be aware that a Power greater than ourselves could restore us to sanity."
+            android:textSize="28sp"
+            android:onClick="openSecondStep"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="3. Made a decision to turn our will and our lives over to the care of God as we understood him"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="4. Made a searching and fearless moral inventory of ourselves."
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="5. admit to God, to ourselves, and to another human being the exact nature of our wrong"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="6. Were entirely ready to have God remove all these defects of character"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="7. Humbly asked Him to remove our shortcomings"
+            android:textSize="28sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text=" 8. Made a list of persons we had harmed, and became willing to make amends to them all."
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="9. Made a list of persons we had harmed, and became willing to make amends to them all."
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="10.Continued to take personal inventory and when we were wrong promptly admitted it."
+            android:textSize="28sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="11.Sought through prayer and meditation to improve our conscious contact with God, as we understood Him, praying only for knowledge of His will for us and the power to carry that out."
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="center"
+            android:text="12.Having had a spiritual awakening as the result of these Steps, we tried to carry this message to alcoholics, and to practice these principles in all our affairs."
+            android:textSize="28sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
